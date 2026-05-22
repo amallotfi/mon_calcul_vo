@@ -27,3 +27,21 @@ Pour exécuter ce projet sur votre machine locale, suivez ces étapes simples :
 1. **Installer Streamlit (si ce n'est pas déjà fait) :**
    ```bash
    pip install streamlit
+
+2. **Lancer l'application :**
+```bash
+streamlit run compta_smart.py
+
+## 📐 Formules Utilisées
+
+L'application s'appuie sur les principes comptables standards :
+
+* **Valeur d'Origine (HT) :** VO_HT = Montant TTC / (1 + (Taux TVA / 100))
+* **Montant de la TVA :** Montant TVA = Montant TTC - VO_HT
+
+---
+
+## 👩‍💻 Développé par:
+
+Projet conçu, développé et déployé avec passion par **Amal Lotfi**.
+
